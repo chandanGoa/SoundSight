@@ -138,8 +138,8 @@ The application processes your MP3 file through several stages to generate visua
 
 ```bash
 # Clone the repository
-git clone https://github.com/MyOldRepositories/Keys-Notations-Scales-Chords-Mp3-php.git
-cd Keys-Notations-Scales-Chords-Mp3-php
+git clone https://github.com/chandanGoa/SoundSight.git
+cd SoundSight
 
 # Start with Docker Compose
 docker-compose up --build
