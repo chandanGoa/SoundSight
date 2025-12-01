@@ -1,0 +1,64 @@
+# Docker ignore file
+# Prevents unnecessary files from being copied into the Docker image
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Audio files (test files)
+*.mp3
+*.wav
+
+# Documentation (keep README for reference)
+LICENSE
+CONTRIBUTING.md
+CHANGELOG.md
+
+# GitHub
+.github/
